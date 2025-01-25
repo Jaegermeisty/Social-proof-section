@@ -81,13 +81,14 @@ h1 {
   width: 100%; 
   display: flex;   
   gap: 1.2rem;  
-  margin-top: 3rem;   
+  margin-top: 3rem;
 }
 
 .review-container {
   background-color: hsl(300, 43%, 22%);
   padding: 2rem;
   border-radius: 0.4rem;
+  align-self: flex-start;
 }
 
 .img-and-name {
@@ -112,4 +113,12 @@ h1 {
 
 .review-comment {
   color: white;
+}
+
+.review-margin-one {
+  margin-top: 1rem;
+}
+
+.review-margin-two {
+  margin-top: 2rem;
 }
