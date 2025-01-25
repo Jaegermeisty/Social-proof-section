@@ -33,8 +33,14 @@ main {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.7rem;
   color: hsl(300, 43%, 22%);
+}
+
+.description {
+  font-size: 1.3rem;
+  color: hsl(303, 10%, 53%);
+  margin-top: 1rem;
 }
 
 .description-container, .rating-container {
@@ -43,6 +49,9 @@ h1 {
 
 .rating-container {
   text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .reviews-container {
