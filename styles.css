@@ -81,20 +81,35 @@ h1 {
   width: 100%; 
   display: flex;   
   gap: 1.2rem;  
-  margin-top: 3rem;     
+  margin-top: 3rem;   
 }
 
 .review-container {
   background-color: hsl(300, 43%, 22%);
   padding: 2rem;
+  border-radius: 0.4rem;
 }
 
 .img-and-name {
   display: flex;
+  margin-bottom: 1.3rem;
 }
 
-img {
+.img-and-name img {
   border-radius: 50%;
   height: 2.3rem;
   margin-right: 1.5rem;
+}
+
+.name {
+  color: white;
+  font-weight: 500;
+}
+
+.verified {
+  color: hsl(333, 80%, 67%);
+} 
+
+.review-comment {
+  color: white;
 }
