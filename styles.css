@@ -79,5 +79,22 @@ h1 {
 
 .reviews-container {
   width: 100%; 
-  display: flex;          
+  display: flex;   
+  gap: 1.2rem;  
+  margin-top: 3rem;     
+}
+
+.review-container {
+  background-color: hsl(300, 43%, 22%);
+  padding: 2rem;
+}
+
+.img-and-name {
+  display: flex;
+}
+
+img {
+  border-radius: 50%;
+  height: 2.3rem;
+  margin-right: 1.5rem;
 }
