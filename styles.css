@@ -14,7 +14,7 @@ body {
   background-position: top left, bottom right;
   background-repeat: no-repeat, no-repeat;
   background-size: contain;
-  height: 100vh;
+  min-height: 100vh;
   display: flex; 
   justify-content: center; 
   align-items: center; 
@@ -30,6 +30,19 @@ main {
 .top-container {
   display: flex;         
   justify-content: space-between; 
+}
+
+h1 {
+  font-size: 4rem;
+  color: hsl(300, 43%, 22%);
+}
+
+.description-container, .rating-container {
+  width: 40%;
+}
+
+.rating-container {
+  text-align: right;
 }
 
 .reviews-container {
