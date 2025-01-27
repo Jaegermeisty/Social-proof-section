@@ -12,7 +12,7 @@ body {
   font-family: "League Spartan", serif;
   background: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
   background-position: top left, bottom right;
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
   background-size: contain;
   min-height: 100vh;
   display: flex; 
@@ -34,7 +34,7 @@ main {
 }
 
 h1 {
-  font-size: 3.7rem;
+  font-size: clamp(2.5rem, 5vw, 3.7rem);
   color: hsl(300, 43%, 22%);
 }
 
@@ -45,7 +45,7 @@ h1 {
 }
 
 .description-container {
-  width: 40%;
+  flex: 0 1 40%;
 }
 
 .rating-container {
@@ -83,13 +83,13 @@ h1 {
   display: flex;   
   gap: 1.2rem;  
   margin-top: 3rem;
+  align-items: flex-start;
 }
 
 .review-container {
   background-color: hsl(300, 43%, 22%);
   padding: 2rem;
   border-radius: 0.4rem;
-  align-self: flex-start;
 }
 
 .img-and-name {
