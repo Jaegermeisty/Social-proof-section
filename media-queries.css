@@ -5,6 +5,7 @@
     background-position: top left, bottom right;
     background-repeat: no-repeat;
     background-size: contain;
+    background-size: 50%;
   }
 
   main {
