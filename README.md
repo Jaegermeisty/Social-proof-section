@@ -1,110 +1,41 @@
-# Frontend Mentor - Social proof section solution
+# Frontend Mentor - Social Proof Section
 
-This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+A responsive social proof section showcasing customer reviews and ratings. This project was a fun, small challenge that allowed me to refine my layout and styling skills. While not overly complex, it reinforced core concepts and provided opportunities to experiment with responsive design.
 
-## Table of contents
+### Built With
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- **Semantic HTML5 markup**  
+- **CSS custom properties** (variables for consistent theming)  
+- **Flexbox** (for flexible layouts and alignment)  
+- **Media queries** (mobile-first responsiveness)  
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+---
 
-## Overview
+### What I Learned
 
-### The challenge
+This project was a great exercise in **layout precision** and **responsive design**. A few highlights:  
 
-Users should be able to:
+1. **Rating Card Alignment**  
+   Ensuring the rating cards aligned elegantly on desktop while stacking cleanly on mobile required careful use of Flexbox and margins. A small but satisfying challenge!  
 
-- View the optimal layout for the section depending on their device's screen size
+2. **Background Image Optimization**  
+   Balancing two background images (top and bottom patterns) while maintaining performance and responsiveness taught me to fine-tune `background-size` and `background-position` properties.   
 
-### Screenshot
+Though the project didn’t involve JavaScript, focusing purely on HTML/CSS allowed me to reinforce my understanding of **mobile-first workflows** and **cross-browser consistency**.  
 
-![](./screenshot.jpg)
+---
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+### Continued Development  
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+While I’m happy with the outcome, I’d like to explore more of:  
+- **CSS Grid** for more complex layouts in future projects.  
+- **Advanced responsive techniques** (e.g., `clamp()` for fluid typography).  
+- **Accessibility enhancements**, such as better contrast checks and ARIA labels.  
+- **JavaScript**, naturally my next big step to improve upon.
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+---
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+### Humble Wins  
+- **Clean code structure**: Minimal redundancy in CSS, thanks to reusable classes and variables.  
+- **Pixel-perfect responsiveness**: The design adapts smoothly from desktop to mobile without compromising readability.  
+- **Fun factor**: A visually appealing project that reminded me how rewarding frontend development can be!  
